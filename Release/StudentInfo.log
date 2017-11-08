@@ -1,0 +1,33 @@
+﻿生成启动时间为 2015/6/10 19:34:45。
+     1>项目“H:\ultimate\chap7\STUDENTINFO\StudentInfo\StudentInfo.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\StudentInfo.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afx.h(33) : 参见“MBCS_Support_Deprecated_In_MFC”的声明
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(1901): warning C4005: “BLACK_BRUSH”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h(1899) : 参见“BLACK_BRUSH”的前一个定义
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\StudentInfo.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CCourseDlg.cpp CCourseSet.cpp CGradeDlg.cpp CGradeSet.cpp CSCChoiceDlg.cpp CSCChoiceSet.cpp CStudentDlg.cpp CStudentSet.cpp StudentInfo.cpp StudentInfoDlg.cpp
+         CCourseDlg.cpp
+         CCourseSet.cpp
+         CGradeDlg.cpp
+         CGradeSet.cpp
+         CSCChoiceDlg.cpp
+         CSCChoiceSet.cpp
+         CStudentDlg.cpp
+     1>CStudentDlg.cpp(109): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+     1>CStudentDlg.cpp(113): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : 参见“sscanf”的声明
+         CStudentSet.cpp
+         StudentInfo.cpp
+         StudentInfoDlg.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\StudentInfo.res" StudentInfo.rc 
+         
+     1>StudentInfo.rc(330): error RC2135: file not found: C:\Users\Administrator\Desktop\bc2\ultimate\chap7\
+     1>已完成生成项目“H:\ultimate\chap7\STUDENTINFO\StudentInfo\StudentInfo.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:30.17
